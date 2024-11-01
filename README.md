@@ -6,7 +6,7 @@
     2. Dicionários
     3. requests
 
-2. [Cotação com Tela]()
+2. [Cotação com Tela](https://github.com/rdilimas/small-python-projects/tree/main/2%20-%20Cora%C3%A7%C3%A3o%20com%20Tela)
     1. [API de Cotações](https://docs.awesomeapi.com.br/api-de-moedas)
     2. Dicionários
     3. requests    
