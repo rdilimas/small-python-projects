@@ -12,7 +12,7 @@
     3. requests    
     4. tkinter
 
-3. [Cadastro de Produtos]()
+3. [Cadastro de Produtos](https://github.com/rdilimas/small-python-projects/tree/main/3%20-%20Cadastro%20de%20produtos%20com%20Flet)
     1. Flet
     2. SQLite Viewer - Extenção VSCode
   
