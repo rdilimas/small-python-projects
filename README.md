@@ -5,3 +5,9 @@
     1. [API de Cotações](https://docs.awesomeapi.com.br/api-de-moedas)
     2. Dicionários
     3. requests
+
+2. [Cotação com Tela]()
+    1. [API de Cotações](https://docs.awesomeapi.com.br/api-de-moedas)
+    2. Dicionários
+    3. requests    
+    4. tkinter
