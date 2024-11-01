@@ -11,3 +11,8 @@
     2. Dicionários
     3. requests    
     4. tkinter
+
+3. [Cadastro de Produtos]()
+    1. Flet
+    2. SQLite Viewer - Extenção VSCode
+  
