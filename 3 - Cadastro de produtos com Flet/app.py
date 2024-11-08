@@ -34,8 +34,16 @@ def main(page: ft.Page):
             txt_ok.visible = False    
         page.update()
 
-    txt_erro = ft.Container(ft.Text('Erro ao Salvar produto'), visible=False, bgcolor=ft.colors.RED, padding=10, alignment=ft.alignment.center)
-    txt_ok   = ft.Container(ft.Text('Produto Cadastrado com Sucesso!'), visible=False, bgcolor=ft.colors.GREEN, padding=10, alignment=ft.alignment.center)
+    txt_erro = ft.Container(ft.Text('Erro ao Salvar produto'), visible=False, 
+                                                               bgcolor=ft.colors.RED, 
+                                                               padding=10, 
+                                                               alignment=ft.alignment.center, 
+                                                               border_radius=10)
+    txt_ok   = ft.Container(ft.Text('Produto Cadastrado com Sucesso!'), visible=False, 
+                                                                        bgcolor=ft.colors.GREEN, 
+                                                                        padding=10, 
+                                                                        alignment=ft.alignment.center, 
+                                                                        border_radius=10)
 
     txt_titulo = ft.Text('Titulo do Produto:')
     produto = ft.TextField(label="Digite o Titulo do Produto", text_align=ft.TextAlign.LEFT)    
@@ -50,7 +58,6 @@ def main(page: ft.Page):
          ,txt_preço
          ,preco
          ,btn_produto
-
      )
     
     for p in session.query(Produto).all():
@@ -69,6 +76,4 @@ def main(page: ft.Page):
     page.add(
           lista_produtos
      )
-
-
 ft.app(target=main)
