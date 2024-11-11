@@ -17,6 +17,8 @@
     2. SQLite Viewer - Extenção VSCode
 
 3. Usando Flet
-    1. [Appbar]()
+    1. [AppBar]()
+    2. [NavBar]()
+    3. [NavRail]()
   
   
