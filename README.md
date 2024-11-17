@@ -22,5 +22,8 @@
     3. [NavRail](https://github.com/rdilimas/small-python-projects/tree/main/4%20-%20Aplica%C3%A7%C3%B5es%20Flet/03%20-%20NavRail)
     3. [Calendar](https://github.com/rdilimas/small-python-projects/tree/main/4%20-%20Aplica%C3%A7%C3%B5es%20Flet/04%20-%20Calendario)
         - ElevatedButton
+    4. [Dropdown]()
+        - Dropdown com botão capturando a opção selecionada
+    
   
   
