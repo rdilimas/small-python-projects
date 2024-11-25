@@ -16,14 +16,20 @@
     1. Flet
     2. SQLite Viewer - Extenção VSCode
 
-3. Usando Flet
+4. Usando Flet
     1. [AppBar](https://github.com/rdilimas/small-python-projects/tree/main/4%20-%20Aplica%C3%A7%C3%B5es%20Flet/01%20-%20AppBar)
     2. [NavBar](https://github.com/rdilimas/small-python-projects/tree/main/4%20-%20Aplica%C3%A7%C3%B5es%20Flet/02%20-%20NavBar)
     3. [NavRail](https://github.com/rdilimas/small-python-projects/tree/main/4%20-%20Aplica%C3%A7%C3%B5es%20Flet/03%20-%20NavRail)
     3. [Calendar](https://github.com/rdilimas/small-python-projects/tree/main/4%20-%20Aplica%C3%A7%C3%B5es%20Flet/04%20-%20Calendario)
         - ElevatedButton
-    4. [Dropdown]()
+    4. [Dropdown](https://github.com/rdilimas/small-python-projects/tree/main/4%20-%20Aplica%C3%A7%C3%B5es%20Flet/05%20-%20Dropdown)
         - Dropdown com botão capturando a opção selecionada
+
+5. [QRCode e BarCode]()  
+    1. EAN13 (barcode)  
+    2. ImageWriter  
+    3. qrcode 
+    4. Acessando dicionários
     
   
   
