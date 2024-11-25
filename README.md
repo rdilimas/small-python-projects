@@ -31,5 +31,9 @@
     3. qrcode 
     4. Acessando dicionários
     
+6. [Via CEP](https://github.com/rdilimas/small-python-projects/tree/main/06%20-%20ViaCEP)  
+    1. [API Via CEP](https://viacep.com.br/) 
+    2. Acessando dicionários com .get()  
+
   
   
