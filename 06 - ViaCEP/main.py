@@ -26,7 +26,7 @@ def obter_dados_endereco():
         regiao     = requisicao_dic["regiao"]
         ddd        = requisicao_dic["ddd"]
         print(
-            "Endereço de Residencia: Rua", logradouro, bairro, localidade,"-", uf  
+            "Endereço de Residencia:", logradouro, bairro,localidade,"-", uf  
         )
 
 obter_dados_endereco()
