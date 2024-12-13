@@ -3,7 +3,7 @@ from winotify import Notification, audio
 notificacao = Notification(app_id="Minha primeira Notificação", 
                            title="Titulo da Notificação", 
                            msg="Mensagem disparada, cuidado pra não Prolongar muito aqui!!!",
-                           duration="short", icon=r"C:\small-python-projects\08 - Notificação do Windows\logo.png")
+                           duration="short", icon=r"C:\small-python-projects\08 - Notificação do Sistema\logo.png")
                            
 
 
