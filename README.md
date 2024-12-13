@@ -40,8 +40,7 @@
     2. os
     3. dotenv
 
-8. [Notificações do Sistema](https://github.com/rdilimas/small-python-projects/tree/main/08%20-%20Notifica%C3%A7%C3%A3o%20do%20Windows) 
-8. Notificações do Sistema (https://github.com/rdilimas/small-python-projects/tree/main/08%20-%20Notifica%C3%A7%C3%A3o%20do%20Sistema)  
+8. [Notificações do Sistema](https://github.com/rdilimas/small-python-projects/tree/main/08%20-%20Notifica%C3%A7%C3%A3o%20do%20Sistema) 
     1. [winotify](https://pypi.org/project/winotify/)  
   
    
