@@ -37,6 +37,12 @@
 
 7. [Envio SMS twilio](https://github.com/rdilimas/small-python-projects/tree/main/07%20-%20EnvioSMS)  
     1. [twilio](https://www.twilio.com/pt-br/messaging/channels/sms)  
+    2. os
+    3. dotenv
+
+8. Notificações do Sistema (https://github.com/rdilimas/small-python-projects/tree/main/08%20-%20Notifica%C3%A7%C3%A3o do Windows)  
+    1. [winotify](https://pypi.org/project/winotify/)  
+  
    
 
   
