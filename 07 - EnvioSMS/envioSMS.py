@@ -12,24 +12,32 @@
 
 from twilio.rest import Client
 
-account_sid = "accountid do twilio"
+#interface com o sistema operacional 
+import os
+from dotenv import load_dotenv
 
-auth_token = "auth_token do twilio"
+#Carregar arquivo .env
+load_dotenv()
+
+#accountid do twilio
+account_sid = os.environ["TWILIO_ACCOUNT_SID"]
+
+#auth_token do twilio
+auth_token = os.environ["TWILIO_AUTH_TOKEN"]
 
 cliente = Client(account_sid, auth_token)
 
 mensagem = cliente.messages.create(
     #de onde vai ser enviado, informação do twilio
-    from_="+99999999999",
+    from_= os.environ["FROM_"],
     #para onde vai ser enviado, pode ser pessoal ou twilio
-    to="+55999999999", 
-    #mensagem a ser enviada.
+    to=os.environ["TO"],
+    #mensagem a ser enviada. 
     body="Testando Envio de SMS Twilio"
 )
 
 resposta = mensagem.status
 sid      = mensagem.sid
-
 
 print(resposta)
 print(sid)
