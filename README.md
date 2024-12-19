@@ -43,7 +43,11 @@
 8. [Notificações do Sistema](https://github.com/rdilimas/small-python-projects/tree/main/08%20-%20Notifica%C3%A7%C3%A3o%20do%20Sistema) 
     1. [winotify](https://pypi.org/project/winotify/)  
   
-   
+9. [Envio SMS twilio Com Tela](https://github.com/rdilimas/small-python-projects/tree/main/07%20-%20EnvioSMS%20com%20Tela)  
+    1. [twilio](https://www.twilio.com/pt-br/messaging/channels/sms)  
+    2. os
+    3. dotenv
+    4. Flet - AppBar - TextField - IconButton
 
   
   
