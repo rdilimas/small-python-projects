@@ -27,18 +27,42 @@ def main(page:Page):
 
     def enviar(e):
 
-        print("Enviado!!!", e)
-        load_dotenv()
-        account_sid = os.environ["TWILIO_ACCOUNT_SID"]
-        auth_token = os.environ["TWILIO_AUTH_TOKEN"]
-        cliente = Client(account_sid, auth_token)
+        if not numero.value:
+            print("String não NUMERICO")
+            txt_erro.visible = True
+            txt_ok.visible = False  
+        elif not mensagem_digitada.value:
+            txt_erro.visible = True
+            txt_ok.visible = False              
+            print("String vazia")
+        else:
+            print("Enviado!!!", e)
+            load_dotenv()
+            account_sid = os.environ["TWILIO_ACCOUNT_SID"]
+            auth_token = os.environ["TWILIO_AUTH_TOKEN"]
+            cliente = Client(account_sid, auth_token)
 
-        mensagem = cliente.messages.create(
-            from_= os.environ["FROM_"],
-            to=numero.value,
-            body=mensagem_digitada.value
-        )    
+            mensagem = cliente.messages.create(
+                from_= os.environ["FROM_"],
+                to=numero.value,
+                body=mensagem_digitada.value
+            )   
+            txt_erro.visible = False
+            txt_ok.visible = True  
+        page.update() 
 
+
+    txt_erro = Container(Text('Erro ao enviar mensagem'), visible=False, 
+                                                               bgcolor=colors.RED, 
+                                                               padding=10, 
+                                                               alignment=alignment.center, 
+                                                               border_radius=10)
+    txt_ok   = Container(Text('Mensagem enviada com Sucesso!'), visible=False, 
+                                                                        bgcolor=colors.GREEN, 
+                                                                        padding=10, 
+                                                                        alignment=alignment.center, 
+                                                                        border_radius=10)
+    
     txt_numero = Text('Número celular:')
     numero = TextField(label="Digite o número celular", text_align=TextAlign.LEFT)    
     txt_msg = Text('Mensagem a ser enviada:')
@@ -46,6 +70,8 @@ def main(page:Page):
     btn_enviar = ElevatedButton("Enviar", on_click=enviar, icon=icons.SEND)
 
     page.add(
+        txt_ok,
+        txt_erro,
         txt_numero,
         numero,
         txt_msg,
