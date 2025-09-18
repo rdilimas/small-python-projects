@@ -10,7 +10,7 @@
        | Parte do código             | O que faz                                                |
        | --------------------------- | ---------------------------------------------------------------- |
        | `cnpj`                      | String original contendo letras, símbolos e números.|
-       | `Cstr.isdigit`              | Função que retorna `True` se o caractere for um número (`0` a `9`). |
+       | `str.isdigit`               | Função que retorna `True` se o caractere for um número (`0` a `9`). |
        | `filter(str.isdigit, cnpj)` | Filtra todos os caracteres da string, mantendo **apenas os dígitos**. |
        | `''.join(...)`              | Junta os dígitos filtrados em uma nova string, sem espaços ou separadores. |
        | `cnpjNum`                   | Variável que recebe o resultado final, como `"12345678000195"`.
