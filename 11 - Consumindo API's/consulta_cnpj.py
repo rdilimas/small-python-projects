@@ -1,5 +1,6 @@
 import requests
 from phonenumbers import format_number, PhoneNumberFormat, parse
+import utils
 
 #cnpj    = '06.057.223/0001-71'
 #cnpj    = '75.315.333/0001-09'
@@ -34,9 +35,9 @@ def imprimirDadosBasicos(razao_social, nome_fantasia, situacao_cadastral,
               "\nRazão Social..............:",razao_social, 
               "\nNome Fantasia.............:",nome_fantasia , 
               "\nSituação Cadastral........:",situacao_cadastral,
-              "\nData da Situação..........:",data_situacao_cadastral, 
+              "\nData da Situação..........:",utils.formatarData(data_situacao_cadastral, 4, 2), 
               "\nMatriz/Filial.............:",matriz_filial, 
-              "\nData Inicio Atividade.....:",data_inicio_atividade,
+              "\nData Inicio Atividade.....:",utils.formatarData(data_inicio_atividade, 4, 2),
               "\nCNAE Principal............:",cnae_principal,
               "\nNatureza Juridica.........:",natureza_juridica)
     
@@ -104,7 +105,7 @@ def montarListaSocios(socios):
                 "   Nome...................:",nome_socio , 
               "\n   CNPJ/CPF...............:",cnpj_cpf_socio , 
               "\n   Qualificação...........:",qualificacao_socio,
-              "\n   Data de Entrada........:",data_entrada_sociedade, 
+              "\n   Data de Entrada........:",utils.formatarData(data_entrada_sociedade, 4, 2), 
               "\n   Tipo de Pessoa.........:",identificador_socio, 
               "\n   Faixa Etária...........:",faixa_etaria)
         contador += 1   
