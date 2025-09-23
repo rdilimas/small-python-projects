@@ -1,0 +1,55 @@
+{
+   "cnpj":"43208040025392",
+   "razao_social":"IGREJA PENTECOSTAL DEUS E AMOR",
+   "nome_fantasia":"DEUS E AMOR",
+   "situacao_cadastral":"Ativa",
+   "data_situacao_cadastral":"2018-04-13",
+   "matriz_filial":"Filial",
+   "data_inicio_atividade":"2018-04-13",
+   "cnae_principal":"9491000",
+   "cnaes_secundarios":[
+      
+   ],
+   "natureza_juridica":"Organização Religiosa",
+   "logradouro":"MATEO BEI",
+   "numero":"2567",
+   "complemento":"",
+   "bairro":"SAO MATEUS",
+   "cep":"03949200",
+   "uf":"SP",
+   "municipio":"SAO PAULO",
+   "email":"DEBORA.DINIZ@IPDA.COM.BR",
+   "telefones":[
+      {
+         "ddd":"11",
+         "numero":"33474726",
+         "is_fax":false
+      },
+      {
+         "ddd":"11",
+         "numero":"33474729",
+         "is_fax":false
+      },
+      {
+         "ddd":"11",
+         "numero":"33474702",
+         "is_fax":true
+      }
+   ],
+   "capital_social":"0,00",
+   "porte_empresa":"Demais",
+   "opcao_simples":"",
+   "data_opcao_simples":"",
+   "opcao_mei":"",
+   "data_opcao_mei":"",
+   "QSA":[
+      {
+         "nome_socio":"MILTON FRANCISCO DE ALMEIDA",
+         "cnpj_cpf_socio":"***897658**",
+         "qualificacao_socio":"Presidente",
+         "data_entrada_sociedade":"2025-01-17",
+         "identificador_socio":"Pessoa Física",
+         "faixa_etaria":"51 a 60 anos"
+      }
+   ]
+}

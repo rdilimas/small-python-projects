@@ -49,5 +49,10 @@
     3. dotenv
     4. Flet - AppBar - TextField - IconButton
 
+10. [Dados](https://github.com/rdilimas/small-python-projects/tree/main/10%20-%20Dados)
+    1. [Correlação](https://github.com/rdilimas/small-python-projects/tree/main/10%20-%20Dados/01%20-%20Correlacao%20com%20Plotly)
+        1. pandas
+        2. plotly
   
-  
+11. [Consumindo API's](https://github.com/rdilimas/small-python-projects/tree/main/11%20-%20Consumindo%20API's)
+    1. [OpenCNPJ](https://github.com/rdilimas/small-python-projects/tree/main/11%20-%20Consumindo%20API's/01%20-%20OpenCNPJ)

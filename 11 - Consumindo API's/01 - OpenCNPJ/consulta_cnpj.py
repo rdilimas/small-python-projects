@@ -85,7 +85,7 @@ def montarListaSocios(socios):
 
     qtd_socios = len(socios)
     contador = 0
-    str_socios = "SÓCIO."
+    str_socios = "SÓCIO-"
 
     if qtd_socios > 1:
        str_socios = "SÓCIOS"
